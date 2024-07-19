@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>310</y>
+      <w>360</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>aircraftWW2airplane::Aircraft
+--
+-price: double
+-maxElevation: double
+-serialNumCtr = 0: long
+-serialNum: long
+#classStr = "Aircraft": String
+--
++Aircraft(): ctor
++Aircraft(double price, double maxElevation): ctor
++Aircraft(Aircraft copy): ctor
++getPrice(): double
++setPrice(double price): void
++getMaxElevation(): double
++setMaxElevation(double maxElevation): void
++getNextSerialNumber(): long
++toString(): String
++equals(Object x): boolean
++clone(): Aircraft
+--
+
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>740</y>
+      <w>560</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>aircraftWW2airplane::WW2Airplane
+--
+-twinEngine: boolean
+-serialNumCtr = 80000: long
+-serialNum: long
+--
++WW2Airplane(): ctor
++WW2Airplane(double price, double maxElevation, boolean twinEngine): ctor
++WW2Airplane(WW2Airplane copy): ctor
++isTwinEngine(): boolean
++setTwinEngine(boolean twinEngine): void
++getNextSerialNumber(): long
++twoEngines(): String
++toString(): String
++equals(Object x): boolean
++clone(): WW2Airplane
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>320</y>
+      <w>360</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>ferry::Ferry
+--
+-maxSpeed: double
+-maxLoad: double
+-serialNumCtr = 70000: long
+-serialNum: long
+-classStr = "Ferry": String
+--
++Ferry(): ctor
++Ferry(double maxSpeed, double maxLoad): ctor
++Ferry(Ferry copy): ctor
++getMaxSpeed(): double
++setMaxSpeed(double maxSpeed): void
++getMaxLoad(): double
++setMaxLoad(double maxLoad): void
++getNextSerialNumber(): long
++toString(): String
++equals(Object x): boolean
++clone(): Ferry
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>740</y>
+      <w>930</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>metro::Metro
+--
+-totalStops: int
+-serialNumCtr = 25000: long
+-serialNum: long
+--
++Metro(): ctor
++Metro(int numOfWheels, double maxSpeed, int numOfVehicles, String startStationName, String destinationName, int totalStops): ctor
++Metro(Metro copy): ctor
++getTotalStops(): int
++setTotalStops(int totalStops): void
++getNextSerialNumber(): long
++toString(): String
++equals(Object x): boolean
++clone(): Metro
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1490</x>
+      <y>310</y>
+      <w>530</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>monowheel::Monowheel
+--
+-maxWeight: double
+-serialNumCtr = 55000: long
+-serialNum: long
+--
++Monowheel(): ctor
++Monowheel(int numOfWheels, double maxSpeed, double maxWeight): ctor
++Monowheel(Monowheel copy): ctor
++getMaxWeight(): double
++setMaxWeight(double maxWeight): void
++getNextSerialNumber(): long
++toString(): String
++equals(Object x): boolean
++clone(): Monowheel
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>1120</y>
+      <w>830</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>trainTram::Train
+--
+-numOfVehicles: int
+-startStationName: String
+-destinationName: String
+-serialNumCtr = 10000: long
+-serialNum: long
+--
++Train(): ctor
++Train(int numOfWheels, double maxSpeed, int numOfVehicles, String startStationName, String destinationName): ctor
++Train(Train copy): ctor
++getNumOfVehicles(): int
++setNumOfVehicles(int numOfVehicles): void
++getStartStationName(): String
++setStartStationName(String startStationName): void
++getDestinationName(): String
++setDestinationName(String destinationName): void
++getNextSerialNumber(): long
++toString(): String
++equals(Object x): boolean
++clone(): Train
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>1570</y>
+      <w>1040</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>trainTram::Tram
+--
+-creationYear: int
+-serialNumCtr = 30000: long
+-serialNum: long
+--
++Tram(): ctor
++Tram(int numOfWheels, double maxSpeed, int numOfVehicles, String startStationName, String destinationName, int totalStops, int creationYear): ctor
++Tram(Tram copy): ctor
++getCreationYear(): int
++setCreationYear(int creationYear): void
++getNextSerialNumber(): long
++toString(): String
++equals(Object x): boolean
++clone(): Tram
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>0</y>
+      <w>310</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>/transportation::Transportation/
+--
+#serialNumCtr: long
+#serialNum: long
+#classStr: String
+--
++Transportation(String classStr): ctor
++Transportation(Transportation copy): ctor
++getSerialNum(): long
++setSerialNum(long serialNum): void
++getClassStr(): String
++setClassStr(String classStr): void
++getNextSerialNumber(): long
++clone(): Transportation
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>310</y>
+      <w>480</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>wheeledTransportation::WheeledTransportation
+--
+-numOfWheels: int
+-maxSpeed: double
+#serialNumCtr = 0: long
+#serialNum: long
+#classStr = "WheeledTransportation": String
+--
++WheeledTransportation(): ctor
++WheeledTransportation(int numOfWheels, double maxSpeed): ctor
++WheeledTransportation(WheeledTransportation copy): ctor
++getNumOfWheels(): int
++setNumOfWheels(int numOfWheels): void
++getMaxSpeed(): double
++setMaxSpeed(double maxSpeed): void
++getClassStr(): String
++getNextSerialNumber(): long
++toString(): String
++equals(Object x): boolean
++clone(): WheeledTransportation
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>230</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>230</y>
+      <w>400</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>230</y>
+      <w>340</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;320.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1350</x>
+      <y>420</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>650</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1120</x>
+      <y>1010</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1120</x>
+      <y>1460</y>
+      <w>30</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>640</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>
