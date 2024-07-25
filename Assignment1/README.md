@@ -31,7 +31,7 @@ Copy arrays of transportation objects and test their equality and functionality.
 - **src**
     - **aircraftWW2airplane**
     - **driver**
-        - `Driver.java`: Main testing program.
+        - Main testing program.
     - **ferry**
     - **metro**
     - **monowheel**
@@ -45,7 +45,7 @@ Copy arrays of transportation objects and test their equality and functionality.
 
 ## How to Run
 
-1. Open `DriverP1.java` and `DriverP1.java` in IntelliJ IDEA.
+1. Open `DriverP1.java` and `DriverP2.java` in IntelliJ IDEA.
 2. Run the `main` method.
 3. Follow the prompts.
 
