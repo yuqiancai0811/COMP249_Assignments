@@ -4,37 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29c0578-6bb0-4258-8d66-9be267ac62f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BadIsbn10Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BadIsbn13Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BadIsbnException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BadPriceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BadYearException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MissingFieldException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_input_file_names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TooFewFieldsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TooManyFieldsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnknownGenreException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books1995.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books1996.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books1997.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books1998.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books1999.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2000.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2001.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2002.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2003.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2004.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2005.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2006.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2007.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2008.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2009.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookRecords/books2010.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part1_input_file_names.txt" afterDir="false" />
+    <list default="true" id="b29c0578-6bb0-4258-8d66-9be267ac62f9" name="Changes" comment="create assignment 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -117,19 +89,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721941154180</updated>
-      <workItem from="1721941156022" duration="2494000" />
+      <workItem from="1721941156022" duration="3119000" />
     </task>
+    <task id="LOCAL-00001" summary="create assignment 2">
+      <created>1721944166111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721944166111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create assignment 2">
+      <created>1721944187838</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721944187838</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create assignment 2">
+      <created>1721944212968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721944212968</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create assignment 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="create assignment 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Driver.java</url>
-          <line>31</line>
+          <line>18</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
